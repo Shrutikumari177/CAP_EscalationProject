@@ -7,7 +7,7 @@ const { expect, GET, POST } = cds.test.in(__dirname, "..").run(
     "serve", "--with-mocks", "--in-memory");
 
    
-
+console.log("git second commit")
   // New changes to push the code to github  -2
 
 describe("Testing OData APIs", () => {
