@@ -7,7 +7,7 @@ const { expect, GET, POST } = cds.test.in(__dirname, "..").run(
     "serve", "--with-mocks", "--in-memory");
 
    
-console.log("git second commit")
+
   // New changes to push the code to github  -2
 
 describe("Testing OData APIs", () => {
@@ -74,7 +74,7 @@ describe("Testing OData APIs", () => {
 
   //   // Step 5: Perform Resolve Action
 
-  //   console.log(draft.ID)
+  
 
   //   await POST`/odata/v4/escalation-management/Escalations(ID=${draft.ID},IsActiveEntity=false)/EscalationManagementService.resolve`;
 
